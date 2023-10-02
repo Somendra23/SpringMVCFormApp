@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+<h2>This is newer version!!</h2>
 	<h2>Registration successfull with below details</h2>
 
 	Username   : ${user.uname} <br/>
