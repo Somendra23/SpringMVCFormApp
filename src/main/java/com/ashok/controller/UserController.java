@@ -13,7 +13,7 @@ public class UserController {
 
 	@RequestMapping(value = "/displayForm.htm", method = RequestMethod.GET)
 	public String displayForm(Model model) {
-		System.out.println("hi this should trigger another build");
+		System.out.println("Auto build checking 3 ===");
 		int i = 10;
 		model.addAttribute("user", new User());
 		return "userForm";
